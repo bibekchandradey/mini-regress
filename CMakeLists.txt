@@ -16,7 +16,5 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(CLI11)
 
-add_executable(regress src/main.cpp)
-target_link_libraries(regress PRIVATE CLI11::CLI11)
-
+add_subdirectory(src)
 add_subdirectory(fixtures)
