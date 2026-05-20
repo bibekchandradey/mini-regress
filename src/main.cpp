@@ -1,5 +1,6 @@
 #include <iostream>
 #include <CLI/CLI.hpp>
+#include "types.h"
 
 int main(int argc, char** argv) {
     CLI::App app{"Mini Regression Framework"};
